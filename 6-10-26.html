@@ -1,0 +1,36 @@
+<form action="/register" method="post">
+
+    <label for="name">Name:</label>
+    <input
+        type="text"
+        id="name"
+        name="name"
+    >
+
+    <br><br>
+
+    <label for="course">Course:</label>
+
+    <select id="course" name="course">
+        <option value="se">Software Engineering</option>
+        <option value="cs">Computer Science</option>
+        <option value="ai">Artificial Intelligence</option>
+    </select>
+
+    <br><br>
+
+    <label for="message">About Yourself:</label>
+
+    <textarea
+        id="message"
+        name="message"
+        rows="5"
+    ></textarea>
+
+    <br><br>
+
+    <button type="submit">
+        Register
+    </button>
+
+</form>
